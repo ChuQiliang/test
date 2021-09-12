@@ -11,7 +11,7 @@ public class Hello {
     public  static  void main(String[] args){
         System.out.println("Hello, ChuQiliang!");
         SimpleDateFormat currentdate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-
         System.out.println(currentdate.format(new Date()));
+        System.out.println("加油！");
     }
 }
